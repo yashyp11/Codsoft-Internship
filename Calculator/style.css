@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #a38f8f9e;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.btnn {
+    cursor: pointer;
+
+}
+
+#input {
+    background-color: #2a2626;
+    color: white;
+
+    border: 0px solid;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-head {
+    display: flex;
+    margin-left: 0.5rem;
+    gap: 0.9rem;
+}
+
+.right-head {
+    margin-right: 0.5rem;
+}
+
+.head-btn button {
+    background-color: #0d0c0c;
+    border-radius: 50%;
+}
+
+.head-btn button span {
+    color: #a8e2e2;
+
+}
+
+
+
+.main-button {
+    display: grid;
+    grid-template-columns: repeat(4, 3.5rem);
+    grid-gap: 0.3rem;
+
+}
+
+.btn button {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    background-color: #353535;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.skin-color {
+    color: bisque;
+}
+
+.num-color {
+    color: aqua;
+}
+
+.btn .equal {
+    background-color: bisque;
+}
+
+.m-bottom {
+    margin-bottom: 0.5rem;
+}
